@@ -1,0 +1,30 @@
+{
+  "name": "node-api1-project",
+  "version": "1.0.0",
+  "description": "- Building a RESTful API.\r - Performing CRUD operations.\r - Writing API endpoints.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "json": "^10.0.0",
+    "shortid": "^2.2.16"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "scripts": {
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rnasir826/node-api1-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rnasir826/node-api1-project/issues"
+  },
+  "homepage": "https://github.com/rnasir826/node-api1-project#readme"
+}
